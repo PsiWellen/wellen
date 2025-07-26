@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Força atualização da imagem específica para WhatsApp
     document.querySelectorAll('meta[property="og:image"], meta[property="whatsapp:image"]').forEach(tag => {
-      tag.setAttribute('content', 'https://psiwellen.com.br/assets/share-preview.jpg');
+      tag.setAttribute('content', 'https://psiwellen.com.br/whatsapp-preview.jpg');
     });
     
     // Adiciona meta tags dinâmicas para ambos os domínios
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Configura a imagem de compartilhamento como atributo de dados
         if (!link.hasAttribute('data-image')) {
-          link.setAttribute('data-image', 'https://psiwellen.com.br/assets/share-preview.jpg');
+          link.setAttribute('data-image', 'https://psiwellen.com.br/whatsapp-preview.jpg');
         }
       }
     }
