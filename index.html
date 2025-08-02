@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
-     
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Google tag (gtag.js) -->
@@ -12,12 +16,18 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'AW-17421495682');
+      
+      // Registra visualização de página como conversão
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17421495682/2mWgCJ-o0_0aEILbm_NA'
+      });
 
       // Rastreamento de cliques no botão do WhatsApp
       function trackWhatsAppClick() {
         gtag('event', 'conversion', {
-          'send_to': 'AW-17421495682/whatsapp_click'
+          'send_to': 'AW-17421495682/2mWgCJ-o0_0aEILbm_NA'
         });
+        console.log('Conversão WhatsApp registrada');
       }
     </script>
     
@@ -94,7 +104,7 @@
       "logo": "/src/assets/favicon2.png",
       "description": "Psicóloga especializada em saúde mental da mulher negra, relações raciais e abordagem psicanalítica. Atendimento psicológico online para todo Brasil, com base em Natal/RN.",
       "priceRange": "$$",
-      "telephone": "+55 84 9XXXX-XXXX",
+      "telephone": "+55 95 98102-7624",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Natal",
@@ -142,7 +152,7 @@
       }
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-BIR9_219.js"></script>
+    <script type="module" crossorigin src="/assets/index-C0am6vvL.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-D1Fjdz5R.css">
   </head>
 
