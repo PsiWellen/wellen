@@ -1,7 +1,7 @@
 // Este script garante que as meta tags de compartilhamento sejam consistentes em todas as páginas
 document.addEventListener('DOMContentLoaded', function() {
   // URL da imagem de compartilhamento
-  const shareImageUrl = 'https://psiwellen.com.br/assets/share-preview.jpg';
+  const shareImageUrl = 'https://psiwellen.com.br/public/share-preview.jpg';
   
   // Verificar se já existem meta tags og:image, caso contrário criar
   if (!document.querySelector('meta[property="og:image"]')) {
