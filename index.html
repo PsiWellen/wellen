@@ -172,8 +172,8 @@
       }
     }
     </script>
-    <script type="module" crossorigin src="/assets/index-ia6Ls2yp.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-sKwdRNRX.css">
+    <script type="module" crossorigin src="/assets/index-8lUL6ksu.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dacd43yc.css">
   </head>
 
   <body>
@@ -209,22 +209,7 @@
       function isMobileDevice() {
         return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
       }
-      
-      // Função para tentar entrar em modo de tela cheia
-      function tryEnterFullscreen() {
-        if (isMobileDevice()) {
-          if (document.documentElement.requestFullscreen) {
-            document.documentElement.requestFullscreen();
-          } else if (document.documentElement.mozRequestFullScreen) { // Firefox
-            document.documentElement.mozRequestFullScreen();
-          } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari e Opera
-            document.documentElement.webkitRequestFullscreen();
-          } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
-            document.documentElement.msRequestFullscreen();
-          }
-        }
-      }
-      
+            
       // Adiciona listener para interação do usuário (necessário para entrar em modo de tela cheia)
       document.addEventListener('click', function() {
         // Tenta entrar em modo de tela cheia apenas na primeira interação
