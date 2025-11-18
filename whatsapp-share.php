@@ -21,7 +21,7 @@ if ($isWhatsApp && !isset($_GET['redirected'])) {
 <head>
     <title>Psicóloga Wellen Crystine - Psicanalista | Atendimento Online</title>
     <meta property="og:title" content="Psicóloga Wellen Crystine - Psicanalista | Atendimento Online" />
-    <meta property="og:description" content="Psicóloga especializada em saúde mental da mulher negra, relações raciais e abordagem psicanalítica. Atendimento online para todo Brasil." />
+    <meta property="og:description" content="Psicóloga especializada em saúde mental da mulher, relações raciais e abordagem psicanalítica. Atendimento online para todo Brasil." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="' . htmlspecialchars($currentUrl) . '" />
     <meta property="og:image" content="https://psiwellen.com.br/share-preview.jpg" />
